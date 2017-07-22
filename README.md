@@ -1,6 +1,6 @@
-# IQ advisor
+# TTS.UA_Test
 
-Simple page for binary trading landing. Use barba.js for reload. Stylus for CSS, Pug for HTML, Gulp and Post CSS.
+Test
 
 ## Getting Started
 
@@ -25,7 +25,6 @@ to start development server and compile file to /build/
 * [Stylus](http://stylus-lang.com/) - EXPRESSIVE, DYNAMIC, ROBUST CSS
 * [Gulp](http://gulpjs.com/) - gulp is a toolkit for automating painful or time-consuming tasks in your development workflow
 * [Pug](https://pugjs.org) - robust, elegant, feature rich template engine for Node.js
-* [Barba.js](http://barbajs.org/) - Create badass, fluid and smooth transition between your website's pages.
 * [BEM](https://en.bem.info/methodology/) - BEM methodology was invented at Yandex to develop sites which should be launched fast and supported for a long time. It helps to create extendable and reusable interface components.
 
 ## Authors
