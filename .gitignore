@@ -1,0 +1,5 @@
+# Модули Node 
+node_modules
+build
+*.psd
+.idea

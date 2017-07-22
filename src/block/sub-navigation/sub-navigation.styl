@@ -1,0 +1,25 @@
+.sub_navigation
+  flex-box(flex, column, space-between, center)
+  padding 20px 40px
+  background-color #ffffff
+  display none
+  list-style none
+  position absolute
+  top -27px
+  left -58px
+  z-index 10
+  & li
+    flex-box(flex, row, center, center)
+    margin 10px 0
+  & li a
+    color black
+    font-size 14px
+    font-family 'Lato', sans-serif
+    line-height 1.143
+    text-align center
+
+.sub_navigation li:first-child
+  border-bottom 2px solid #ffd119
+  padding-bottom 10px
+.navigation > li:hover .sub_navigation
+  display block

@@ -1,0 +1,24 @@
+mixin b-navigation()
+    div.navigation_wrapper
+        img(src="img/icon__nav.png").mobile_menu_icon
+        img(src="img/icon__nav__close.png").mobile_menu_icon_close
+        +b('ul').navigation
+            +e('li')
+                a(href="/") ALL ITEMS
+            +e('li')
+                a(href="/") WORDPRESS
+            +e('li')
+                a(href="/") WEBSITES
+            +e('li')
+                a(href="/") HTML
+            +e('li')
+                a(href="/") MARKETING
+            +e('li')
+                a(href="/") CMS
+                +b-sub-navigation()
+            +e('li')
+                a(href="/") ECOMMERCE
+            +e('li')
+                a(href="/") UI DESIGN
+            +e('li')
+                a(href="/") CONTACTS
