@@ -1,44 +1,71 @@
-.display_inline_flex
-  display inline-flex!important
-.display_none
-  display none!important
-.display_block
-  display block
+.navigation_wrapper
+  padding-right 98px
+  margin 102px 0 0 0
+
 .header-navigation
-  flex-box(flex, row, space-around, flex-end)
+  flex-box(flex, row, space-between, flex-end)  margin 10px 0 0 0
+  width 100%
+
 .mobile_menu_icon, .mobile_menu_icon_close
   display none
   cursor pointer
+
 .navigation
   display inline-flex
+  margin-left auto
   & li
     position relative
-    margin 0 10px
+    margin 0 30px 2px 0
     & a
       text-decoration none
       color #fff
       font-size 14px
       font-weight bold
       line-height 1.2
+      font-family 'Lato', sans-serif
+      text-transform uppercase
+      text-align right
+
+
     & a:hover
       color #ffd119
       transition 0.3s
 
+@media (max-width: 1200px)
+  .navigation_wrapper
+    padding-right 50px
+
+  .navigation
+    display inline-flex
+    margin-left 10px
+    & li
+      position relative
+      margin 0 20px 2px 0
+
 @media (max-width: 990px)
   .navigation_wrapper
     position relative
+    padding-right 20px
+    margin 32px 0 0 60px
+
   .mobile_menu_icon
     display block
+
   .navigation
     display none
     position absolute
     top 40px
     left -70px
     z-index 10
+
   .navigation li a
     flex-box(flex, row, flex-end, flex-end)
     margin-bottom 20px
+
   .header-navigation
-    margin 0 30px
+    margin 15px 0 0 0
     width 100vw
     flex-box(flex, row, space-around, flex-end)
+
+  .mobile_menu_icon, .mobile_menu_icon_close
+    padding 0 15px 20px 0
